@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ********************************************************************************************************************************
+* This is an example XML document that conforms to the NSG Application Schema (NAS) in accordance with
+* NSG Metadata Foundation (NMF) 3.0 Identification and Access Profile of the NAS.  This example includes IC-ISM,
+* IC-NTK, IC-RevRecall, and defines Resource Geographic Location by geographic bounding box.
+************************************************************************************************************************************-->
+<gpfm:MD_Metadata xmlns:gpfm="http://www.geoplatform.gov/ns/gpfm/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geoplatform.gov/ns/gpfm/1.0 ./1.0/gpfm.xsd">
+	<mdb:defaultLocale>
+		<lan:PT_Locale>
+			<lan:language>
+				<lan:LanguageCode codeList="http://api.nsgreg.nga.mil/codelist/iso639-2" codeListValue="eng"/>
+			</lan:language>
+			<lan:country>
+				<lan:CountryCode codeList="http://api.nsgreg.nga.mil/N2L?" codeListValue="ge:GENC:3:3-3:USA"/>
+			</lan:country>
+			<lan:characterEncoding>
+				<lan:MD_CharacterSetCode codeList="http://api.nsgreg.nga.mil/codelist/IANACharset" codeListValue="UTF-8"/>
+			</lan:characterEncoding>
+		</lan:PT_Locale>
+	</mdb:defaultLocale>
+	<mdb:parentMetadata>
+		<cit:CI_Citation>
+			<cit:title>
+				<gco:CharacterString>LTDS_39N078W_A-P</gco:CharacterString>
+			</cit:title>
+		</cit:CI_Citation>
+	</mdb:parentMetadata>
+	<mdb:metadataScope>
+		<mdb:MD_MetadataScope>
+			<mdb:resourceScope>
+				<mcc:MD_ScopeCode codeList="http://api.nsgreg.nga.mil/codelist/ScopeCode" codeListValue="dataset"/>
+			</mdb:resourceScope>
+			<mdb:name>
+				<gco:CharacterString>cell</gco:CharacterString>
+			</mdb:name>
+		</mdb:MD_MetadataScope>
+	</mdb:metadataScope>
+	<mdb:contact xlink:href="#NgaOrganization"/>
+	<mdb:dateInfo>
+		<cit:CI_Date>
+			<cit:date>
+				<gco:DateTime>2016-05-30T09:30:47Z</gco:DateTime>
+			</cit:date>
+			<cit:dateType>
+				<cit:CI_DateTypeCode codeList="http://api.nsgreg.nga.mil/codelist/DateTypeCode" codeListValue="creation"/>
+			</cit:dateType>
+		</cit:CI_Date>
+	</mdb:dateInfo>
+	<mdb:metadataStandard>
+		<cit:CI_Citation>
+			<cit:title>
+				<gco:CharacterString>National System for Geospatial Intelligence (NSG) Application Schema (NAS)</gco:CharacterString>
+			</cit:title>
+			<cit:alternateTitle>
+				<gco:CharacterString>NAS</gco:CharacterString>
+			</cit:alternateTitle>
+			<cit:edition>
+				<gco:CharacterString>8.0</gco:CharacterString>
+			</cit:edition>
+		</cit:CI_Citation>
+	</mdb:metadataStandard>
+	<mdb:referenceSystemInfo>
+		<mrs:MD_ReferenceSystem>
+			<mrs:referenceSystemIdentifier>
+				<mcc:MD_Identifier>
+					<mcc:code>
+						<gco:CharacterString>WGS84E_2D</gco:CharacterString>
+					</mcc:code>
+					<mcc:codeSpace>
+						<gco:CharacterString>http://api.nsgreg.nga.mil/coord-ref-system</gco:CharacterString>
+					</mcc:codeSpace>
+				</mcc:MD_Identifier>
+			</mrs:referenceSystemIdentifier>
+		</mrs:MD_ReferenceSystem>
+	</mdb:referenceSystemInfo>
+	<mdb:identificationInfo>
+		<mri:MD_DataIdentification>
+			<mri:citation>
+				<cit:CI_Citation>
+					<cit:title>
+						<gco:CharacterString>Local Topographic Data Store (LTDS) data sample for cell 39N078WA.</gco:CharacterString>
+					</cit:title>
+					<cit:date>
+						<cit:CI_Date>
+							<cit:date>
+								<gco:DateTime>2016-05-30T09:30:47Z</gco:DateTime>
+							</cit:date>
+							<cit:dateType>
+								<cit:CI_DateTypeCode codeList="http://api.nsgreg.nga.mil/codelist/DateTypeCode" codeListValue="distribution"/>
+							</cit:dateType>
+						</cit:CI_Date>
+					</cit:date>
+					<cit:identifier>
+						<mcc:MD_Identifier>
+							<mcc:authority>
+								<cit:CI_Citation>
+									<cit:title>
+										<gco:CharacterString>NGA/S2 Topographic Feature Data Management (TFDM) system.</gco:CharacterString>
+									</cit:title>
+									<cit:date>
+										<cit:CI_Date>
+											<cit:date>
+												<gco:DateTime>2016-04-15T09:30:47Z</gco:DateTime>
+											</cit:date>
+											<cit:dateType>
+												<cit:CI_DateTypeCode codeList="http://api.nsgreg.nga.mil/codelist/DateTypeCode" codeListValue="creation"/>
+											</cit:dateType>
+										</cit:CI_Date>
+									</cit:date>
+								</cit:CI_Citation>
+							</mcc:authority>
+							<mcc:code>
+								<gco:CharacterString>urn:uuid:65ab5357-d6cf-4b25-a73a-8d76ed6aj367</gco:CharacterString>
+							</mcc:code>
+						</mcc:MD_Identifier>
+					</cit:identifier>
+					<cit:series>
+						<cit:CI_Series>
+							<cit:name>
+								<gco:CharacterString>Local Topographic Data Store (LTDS) data samples for cell 39N078W.</gco:CharacterString>
+							</cit:name>
+						</cit:CI_Series>
+					</cit:series>
+				</cit:CI_Citation>
+			</mri:citation>
+			<mri:abstract>
+				<gco:CharacterString>A small-footprint sample of NAS-conformant data located in the southern region of New Jersey, USA. It contains a variety of urban, terrain, shoreline, and littoral vector-based feature data, some of which are vertical obstructions to aircraft.</gco:CharacterString>
+			</mri:abstract>
+			<mri:identifier gco:nilReason="unknown"/>
+			<mri:pointOfContact>
+				<cit:CI_Responsibility>
+					<cit:role>
+						<cit:CI_RoleCode codeList="http://api.nsgreg.nga.mil/codelist/RoleCode" codeListValue="originator"/>
+					</cit:role>
+					<cit:party>
+						<cit:CI_Organisation>
+							<cit:name>
+								<gco:CharacterString>US National Geospatial-Intelligence Agency</gco:CharacterString>
+							</cit:name>
+						</cit:CI_Organisation>
+					</cit:party>
+				</cit:CI_Responsibility>
+			</mri:pointOfContact>
+			<mri:topicCategory>
+				<mri:MD_TopicCategoryCode>boundaries</mri:MD_TopicCategoryCode>
+			</mri:topicCategory>
+			<mri:topicCategory>
+				<mri:MD_TopicCategoryCode>intelligenceMilitary</mri:MD_TopicCategoryCode>
+			</mri:topicCategory>
+			<mri:topicCategory>
+				<mri:MD_TopicCategoryCode>inlandWaters</mri:MD_TopicCategoryCode>
+			</mri:topicCategory>
+			<mri:topicCategory>
+				<mri:MD_TopicCategoryCode>location</mri:MD_TopicCategoryCode>
+			</mri:topicCategory>
+			<mri:topicCategory>
+				<mri:MD_TopicCategoryCode>oceans</mri:MD_TopicCategoryCode>
+			</mri:topicCategory>
+			<mri:topicCategory>
+				<mri:MD_TopicCategoryCode>structure</mri:MD_TopicCategoryCode>
+			</mri:topicCategory>
+			<mri:topicCategory>
+				<mri:MD_TopicCategoryCode>transportation</mri:MD_TopicCategoryCode>
+			</mri:topicCategory>
+			<mri:topicCategory>
+				<mri:MD_TopicCategoryCode>utilitiesCommunication</mri:MD_TopicCategoryCode>
+			</mri:topicCategory>
+			<mri:extent>
+				<gex:EX_Extent>
+					<gex:geographicElement>
+						<gex:EX_GeographicBoundingBox>
+							<gex:westBoundLongitude>
+								<gco:Decimal>-74.92269</gco:Decimal>
+							</gex:westBoundLongitude>
+							<gex:eastBoundLongitude>
+								<gco:Decimal>-74.66142</gco:Decimal>
+							</gex:eastBoundLongitude>
+							<gex:southBoundLatitude>
+								<gco:Decimal>39.10306</gco:Decimal>
+							</gex:southBoundLatitude>
+							<gex:northBoundLatitude>
+								<gco:Decimal>39.19414</gco:Decimal>
+							</gex:northBoundLatitude>
+						</gex:EX_GeographicBoundingBox>
+					</gex:geographicElement>
+				</gex:EX_Extent>
+			</mri:extent>
+			<mri:descriptiveKeywords>
+				<mri:MD_Keywords>
+					<mri:keyword>
+						<gco:CharacterString>Boundaries and Lines</gco:CharacterString>
+					</mri:keyword>
+					<mri:keyword>
+						<gco:CharacterString>General Structures</gco:CharacterString>
+					</mri:keyword>
+				</mri:MD_Keywords>
+			</mri:descriptiveKeywords>
+			<mri:descriptiveKeywords>
+				<mri:MD_Keywords>
+					<mri:keyword>
+						<gco:CharacterString>Woeful Weeping Willow</gco:CharacterString>
+					</mri:keyword>
+					<mri:keyword>
+						<gco:CharacterString>Conspicuously Cheerful Charthouse</gco:CharacterString>
+					</mri:keyword>
+				</mri:MD_Keywords>
+			</mri:descriptiveKeywords>
+			<mri:resourceConstraints>
+				<mco:MD_SecurityConstraints>
+					<mco:classification>
+						<mco:MD_ClassificationCode codeList="http://api.nsgreg.nga.mil/codelist/ClassificationCode" codeListValue="unclassified"/>
+					</mco:classification>
+					<mco:classificationSystem>
+						<gco:CharacterString>USA</gco:CharacterString>
+					</mco:classificationSystem>
+				</mco:MD_SecurityConstraints>
+			</mri:resourceConstraints>
+			<mri:defaultLocale>
+				<lan:PT_Locale>
+					<lan:language>
+						<lan:LanguageCode codeList="http://api.nsgreg.nga.mil/codelist/ISO639-2" codeListValue="eng"/>
+					</lan:language>
+					<lan:country>
+						<lan:CountryCode codeList="http://api.nsgreg.nga.mil/N2L?" codeListValue="ge:GENC:3:3-3:USA"/>
+					</lan:country>
+					<lan:characterEncoding>
+						<lan:MD_CharacterSetCode codeList="http://api.nsgreg.nga.mil/codelist/IANACharset" codeListValue="UTF-8"/>
+					</lan:characterEncoding>
+				</lan:PT_Locale>
+			</mri:defaultLocale>
+		</mri:MD_DataIdentification>
+	</mdb:identificationInfo>
+	<mdb:metadataConstraints>
+	</mdb:metadataConstraints>
+</gpfm:MD_Metadata>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    xmlns:gpfm="http://www.geoplatform.gov/ns/gpfm/1.0"
+    elementFormDefault="qualified"
+    targetNamespace="http://www.geoplatform.gov/ns/gpfm/1.0" version="1.0">
+    <annotation>
+        <documentation>XML Schema for the Geoplatform Profile of ISO 19115-1: Draft of July 2016</documentation>
+    </annotation>
+    <include schemaLocation="geoplatform.xsd"/>
+</schema>
