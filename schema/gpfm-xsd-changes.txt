@@ -1,0 +1,31 @@
+Locations where C:/ references need to be changed to a final namespace URL:
+
+Schemas:
+
+geoplatform.xsd
+(found in \GeoplatformMetadataProfile\1.0)
+- Update gpfm namespace
+- Update targetNamespace
+
+gpfm.xsd
+(found in \GeoplatformMetadataProfile\1.0)
+- Update gpfm namespace
+- Update targetNamespace
+
+contentProfile.xsd
+(found in \GeoplatformMetadataProfile\1.0\19115\-3\mrc\1.0)
+- Update gpfm namespace
+- Update namespace and schemaLocation in first <import>
+
+Other:
+
+Example Datasets
+(found in \GeoplatformMetadataProfile)
+- Update gpfm namespace
+- Update schemaLocation (maybe just need to make this a relative path)
+
+Used namespace:
+http://www.geoplatform.gov/ns/gpfm/1.0
+
+Other potential namespaces:
+http://www.geoplatform.gov/gpfm
