@@ -1,2 +1,20 @@
-# ISO 19115-1 Metadata Profile Repository
-GP ISO 19115-1 Metadata Profile
+# GeoPlatform Metadata Profile of ISO 19115-1  (ISO 19115-1 GPP)
+A repository for schema, examples, and related documents.  
+
+Please use the GitHub Issues tool (https://github.com/GeoPlatform/iso-profile/issues) to contribute comments, suggestions, and improvements. Likewise, use the GitHub Wiki tool (https://github.com/GeoPlatform/iso-profile/wiki) for topic-focused, long-form discussion and contributions.
+
+# Description
+The GeoPlatform team developed a draft profile of ISO 19115-1, we call the “GeoPlatform Profile of ISO 19115-1” or “GeoPlatform Profile”, for consideration and comment by the broader geospatial community. We hope the profile helps to improve the adoption and use of ISO 19115-1 metadata for interoperable exchange of information about geospatial assets.  The profile is primarily concerned with supporting the principles and constructs of the Semantic Web in practical ways. For example:
++ Uniform Resource Identifiers (URIs) are now either explicitly specified where absent or placed in obvious locations where they were previously obscured in the metadata.
++ Layer and Map identification classes are added at the same level as Dataset and Service identification classes in an effort to better link the corresponding resources (e.g., defining and linking Dataset, Service, Layer, and Map items as first-order digital geospatial assets).
++ Classes and elements are added that correspond to the Simple Knowledge Organization System (SKOS), making use of established controlled vocabularies. SKOS (https://www.w3.org/2004/02/skos/) is a body of specifications and standards from W3C to support the use of knowledge organization systems such as thesauri, classification schemes, subject heading systems, and taxonomies within the framework of the Semantic Web.
+The GeoPlatform Profile extends ISO 19115-1 in limited ways and is designed to be 100% compatible with the 19115-3 encoding rules.
+ 
+# Purpose and Scope
+The GeoPlatform provides ready access to the nation’s geospatial data and services and manages these as a portfolio of assets. Creating, managing and exploiting current standard metadata about geospatial assets provide the foundation for this portfolio-management scheme  The Geoplatform Profile enables a more robust and interoperable exchange of descriptions of geospatial assets in ways the current ISO 19115-1 content model and, more specifically, the 19115-3 XML encoding rules, do not.
+ 
+In early 2016,  the GeoPlatform team completed a gap-analysis of the ISO 19139 standard to identify limitations that inhibit use of metadata beyond the basic requirements for finding and describing data.  ISO 19139 fell short of meeting the needs of a seamless, service-centric experience through the GeoPlatform.gov. Given the massive amounts of data users need to sift through, we need software to reliably and automatically read, interpret and act on the metadata and get beyond the point of just having users read and interpret it. To do this requires formal semantics, enhanced metadata models, and machine-consumable services based on API standards. 
+
+With these objectives in mind and through experimentation, we identified 24 issues with ISO 19139 (the spec and its implementations) in categories ranging from metadata inconsistencies to semantics to service access. Those findings are detailed in the “NGPI-ISO19139 Metadata Assessment Report-Issues and Recommendations-R1.pdf” document (in _docs_ folder) and are the basis for the changes found in the draft GeoPlatform Profile documents and schema.
+ 
+The GeoPlatform Profile extends ISO 19115-1 and -3 as these latest specifications are significant improvements over the earlier flavors of ISO 19115 specifications, and particularly ISO 19139.  We look forward to discussing your thoughts and receiving your feedback over the coming months.
