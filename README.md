@@ -1,7 +1,7 @@
-# GeoPlatform Metadata Profile of ISO 19115-1  (ISO 19115-1 GPP)
+# GeoPlatform Profile of ISO 19115-1 (ISO 19115-1 GPP)
 A repository for schema, examples, and related documents.  
 
-Please use the GitHub Issues tool (https://github.com/GeoPlatform/iso-profile/issues) to contribute comments, suggestions, and improvements. Likewise, use the GitHub Wiki tool (https://github.com/GeoPlatform/iso-profile/wiki) for topic-focused, long-form discussion and contributions.
+Please use the GitHub Issues tool (https://github.com/GeoPlatform/iso-profile/issues) to contribute issues, comments, and improvements. Likewise, use the GitHub Wiki tool (https://github.com/GeoPlatform/iso-profile/wiki) for topic-focused, long-form discussion and contributions.
 
 # Description
 The GeoPlatform team developed a draft profile of ISO 19115-1, we call the “GeoPlatform Profile of ISO 19115-1” or “GeoPlatform Profile”, for consideration and comment by the broader geospatial community. We hope the profile helps to improve the adoption and use of ISO 19115-1 metadata for interoperable exchange of information about geospatial assets.  The profile is primarily concerned with supporting the principles and constructs of the Semantic Web in practical ways. For example:
